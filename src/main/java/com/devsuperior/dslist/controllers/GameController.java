@@ -25,8 +25,9 @@ public class GameController {
 	public GameDTO findById(@PathVariable Long id){
 		 GameDTO result = gameService.findbyId(id);
 		 return result;
-
 	}
+	
+	// FALTAM UNS 38 MINUTOS DA AULA 2
 	
 	@GetMapping
 	public List<GameMinDTO> findAll(){
