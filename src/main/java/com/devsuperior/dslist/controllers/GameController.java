@@ -27,8 +27,6 @@ public class GameController {
 		 return result;
 	}
 	
-	// FALTAM UNS 38 MINUTOS DA AULA 2
-	
 	@GetMapping
 	public List<GameMinDTO> findAll(){
 		List<GameMinDTO> result = gameService.findall();
